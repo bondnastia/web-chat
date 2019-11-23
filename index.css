@@ -1,0 +1,42 @@
+.messages-wrapper{
+    border: 2px solid #9a9a;
+    padding: 20px;
+    border-radius: 2px;
+    height: 70%;
+    overflow:scroll;
+}
+.message{
+    padding: 10px;
+    border-bottom: 2px solid #9a9a;
+}
+.message .message-nickname{
+font-weight: bold;
+font-size: 1.1rem;
+}
+.message .message-text{
+    color:#4b4b4b;
+    font-size: 1.3rem;
+}
+.send-messages-wrapper{
+    height: 120px;
+    padding: 30px;
+    margin-top: 20px;
+    border: 2px solid #9a9a;
+}
+.send-messages-input{
+    width: 70%;
+    margin: 0;
+    border-radius:5px;
+    resize:none;
+}
+.send-messages-button-btn{
+   display: flex;
+    align-items:center;
+    justify-content: center;
+     margin-top:13px;
+}  
+
+.send-messages-button{
+    height: 56px;
+   
+}  
